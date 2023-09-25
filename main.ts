@@ -1,4 +1,4 @@
-basic.forever(function on_forever() {
+basic.forever(function () {
     if (input.buttonIsPressed(Button.B)) {
         basic.showLeds(`
             . . # . .
@@ -32,5 +32,4 @@ basic.forever(function on_forever() {
             . . . . .
             `)
     }
-    
 })
